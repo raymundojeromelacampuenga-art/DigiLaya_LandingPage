@@ -1,0 +1,1294 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Participant Handbook — DigiLaya</title>
+    <link rel="stylesheet" href="handbook.css" />
+    <link rel="stylesheet" href="handbook.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="handbook-page">
+    <!-- HEADER -->
+    <header class="site" id="site-header">
+      <div class="wrap">
+        <div class="mark" id="logoPlaceholder">
+          <a href="index.html" aria-label="DigiLaya home">
+            <img src="DigiLaya.png" alt="DigiLaya Logo" class="logo-img" />
+          </a>
+        </div>
+        <button
+          class="menu-btn"
+          id="menuBtn"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+        >
+          <span></span>
+        </button>
+        <nav class="site" id="siteNav">
+          <a href="index.html">Home</a>
+          <a href="#steps" data-nav>Six Steps</a>
+          <a href="#emergency" data-nav>Emergency</a>
+          <a href="#guide" data-nav>Community Guide</a>
+          <a href="index.html#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- HERO -->
+    <section class="hero handbook-hero">
+      <div class="wrap">
+        <p class="kicker">
+          Association of Computer Science Students · University of Cabuyao
+        </p>
+        <h1>Your guide to safer, smarter, more independent digital living.</h1>
+        <p class="lead">
+          This handbook is yours to keep. Work through it during your DigiLaya
+          session, then keep it nearby afterward — it's built to be reopened
+          whenever you need a reminder of how to check, secure, organize,
+          verify, prepare, and continue.
+        </p>
+        <div class="cta">
+          <button class="btn primary" id="printBtn" type="button">
+            Print or save as PDF
+          </button>
+          <a class="btn ghost" href="#check"
+            >Start with Step 1 <span class="arrow">&#8594;</span></a
+          >
+        </div>
+        <p class="progress-note" id="progressNote">
+          Your checkbox answers are saved on this device only.
+        </p>
+      </div>
+    </section>
+
+    <!-- TABLE OF CONTENTS -->
+    <nav class="hb-toc" aria-label="Handbook contents">
+      <div class="wrap">
+        <ol>
+          <li><a href="#about">What is DigiLaya?</a></li>
+          <li><a href="#rules">Safety rules</a></li>
+          <li><a href="#steps">The six-step checkup</a></li>
+          <li><a href="#plan">My 30-day plan</a></li>
+          <li><a href="#emergency">Emergency checklist</a></li>
+          <li><a href="#reference">Quick reference</a></li>
+          <li><a href="#assessment">Self-assessment</a></li>
+          <li><a href="#guide">Community Guide</a></li>
+          <li><a href="#commitment">Our commitment</a></li>
+        </ol>
+      </div>
+    </nav>
+
+    <!-- 1 & 2 — ABOUT -->
+    <section id="about">
+      <div class="wrap">
+        <h2 class="section-title">
+          DigiLaya is not about becoming a computer expert.
+        </h2>
+        <p class="gap-para">
+          It's about becoming more capable of managing your own digital life.
+          The program is a community-based effort to help residents build
+          practical digital skills for everyday use — checking a device's
+          security, organizing important files, telling a real message from a
+          scam, and knowing what to do if something goes wrong.
+        </p>
+        <div class="pillar-grid">
+          <div class="pillar">
+            <span class="pillar-mark">🔐</span>
+            <h3>Digital Security</h3>
+            <p>Protecting devices and accounts.</p>
+          </div>
+          <div class="pillar">
+            <span class="pillar-mark">📁</span>
+            <h3>Digital Organization</h3>
+            <p>Managing files, photos, and documents.</p>
+          </div>
+          <div class="pillar">
+            <span class="pillar-mark">🔎</span>
+            <h3>Information Verification</h3>
+            <p>Spotting suspicious messages and links.</p>
+          </div>
+          <div class="pillar">
+            <span class="pillar-mark">♻️</span>
+            <h3>Digital Continuity</h3>
+            <p>Keeping good habits after the program ends.</p>
+          </div>
+        </div>
+
+        <div class="callout">
+          <p>
+            Digital self-reliance doesn't mean solving every problem alone. It
+            means you know what you can do yourself, what you should avoid, and
+            when and how to ask for safe help.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 3 — SAFETY RULES -->
+    <section class="alt" id="rules">
+      <div class="wrap">
+        <h2 class="section-title">Before we begin: your safety comes first.</h2>
+        <p class="section-lead">
+          Facilitators will guide you through activities, but you stay in
+          control of your own device and accounts. A facilitator should never
+          ask you for any of this:
+        </p>
+        <ul class="never-grid">
+          <li>Passwords</li>
+          <li>One-Time Passwords (OTPs)</li>
+          <li>PINs</li>
+          <li>Recovery codes</li>
+          <li>Banking information</li>
+          <li>Full payment-card details</li>
+          <li>Secret answers</li>
+          <li>Authentication codes</li>
+        </ul>
+        <div class="callout">
+          <p>
+            You may ask for help with a digital task, but keep your confidential
+            information private.
+          </p>
+        </div>
+
+        <h3 class="sub-title">Using your own device during the session</h3>
+        <ol class="numbered-list">
+          <li>Use your own smartphone whenever possible.</li>
+          <li>Read instructions before tapping.</li>
+          <li>Ask questions when you are unsure.</li>
+          <li>
+            Do not install unknown applications just because someone tells you
+            to.
+          </li>
+          <li>Do not click suspicious links.</li>
+          <li>Do not send passwords or OTPs to anyone.</li>
+          <li>Stop immediately if something feels suspicious.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- 4 — SIX STEPS OVERVIEW -->
+    <section id="steps">
+      <div class="wrap">
+        <h2 class="section-title">The six-step digital checkup.</h2>
+        <p class="section-lead">
+          Think of these six steps as your personal digital routine.
+        </p>
+        <table class="hb-table">
+          <tr>
+            <th>Step</th>
+            <th>Focus</th>
+            <th>Goal</th>
+          </tr>
+          <tr>
+            <td>01</td>
+            <td>Check</td>
+            <td>Know your digital needs</td>
+          </tr>
+          <tr>
+            <td>02</td>
+            <td>Secure</td>
+            <td>Protect your accounts and device</td>
+          </tr>
+          <tr>
+            <td>03</td>
+            <td>Organize</td>
+            <td>Manage important digital files</td>
+          </tr>
+          <tr>
+            <td>04</td>
+            <td>Verify</td>
+            <td>Check information before trusting it</td>
+          </tr>
+          <tr>
+            <td>05</td>
+            <td>Prepare</td>
+            <td>Prepare for account problems</td>
+          </tr>
+          <tr>
+            <td>06</td>
+            <td>Continue</td>
+            <td>Build lasting digital habits</td>
+          </tr>
+        </table>
+      </div>
+    </section>
+
+    <!-- STEP 01 CHECK -->
+    <section class="alt step-section" id="check">
+      <div class="wrap">
+        <div class="step-tag">
+          <span class="n">01</span>
+          <h2>Check</h2>
+        </div>
+        <p class="section-lead">
+          Know your digital situation before trying to improve it. There's no
+          wrong answer here — the point is to see clearly what you already know
+          and what you'd like to get better at.
+        </p>
+
+        <div class="activity-card" data-activity="check-tasks">
+          <h3>Activity 1 — My Digital Checkup</h3>
+          <p>Check the tasks you can already do confidently.</p>
+          <ul class="check-list">
+            <li>
+              <label
+                ><input type="checkbox" data-store /> Lock my smartphone</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> Update my phone</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> Change an account
+                password</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> Identify suspicious
+                messages</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> Organize
+                photos/files</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> Find downloaded
+                files</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> Check whether a website is
+                legitimate</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> Use account recovery
+                options</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> Enable additional account
+                security</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> Back up important
+                information</label
+              >
+            </li>
+          </ul>
+          <div class="fill-row">
+            <label>One digital task I'm already confident doing:</label>
+            <input type="text" data-store placeholder="Type your answer" />
+          </div>
+          <div class="fill-row">
+            <label>One digital task I want to improve:</label>
+            <input type="text" data-store placeholder="Type your answer" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 02 SECURE -->
+    <section class="step-section" id="secure">
+      <div class="wrap">
+        <div class="step-tag">
+          <span class="n">02</span>
+          <h2>Secure</h2>
+        </div>
+        <p class="section-lead">
+          Your accounts and devices hold valuable information. Security starts
+          with simple habits.
+        </p>
+
+        <div class="mini-grid">
+          <div class="mini">
+            <h3>1. Lock your device</h3>
+            <p>
+              Use a PIN, password, pattern, fingerprint, or face authentication.
+              Avoid easy-to-guess combinations like 1234, 0000, your birthday,
+              your name, or other publicly known information.
+            </p>
+          </div>
+          <div class="mini">
+            <h3>2. Use strong, unique passwords</h3>
+            <p>
+              Avoid reusing the same password everywhere — the same one for
+              Facebook, email, shopping, and banking is a risky habit. Different
+              passwords for important accounts is safer. A reputable password
+              manager can help.
+            </p>
+          </div>
+          <div class="mini">
+            <h3>3. Turn on additional security</h3>
+            <p>
+              Where available, enable multi-factor authentication —
+              authentication apps, security keys, or device confirmation — for
+              your important accounts.
+            </p>
+          </div>
+          <div class="mini">
+            <h3>4. Keep your device updated</h3>
+            <p>
+              Updates bring security fixes, bug fixes, and performance
+              improvements. Review and install legitimate updates when your
+              phone or apps notify you.
+            </p>
+          </div>
+        </div>
+
+        <div class="activity-card" data-activity="secure-check">
+          <h3>Activity 2 — Security Check</h3>
+          <ul class="check-list">
+            <li>
+              <label
+                ><input type="checkbox" data-store /> My phone has a screen
+                lock</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> I know the password/PIN
+                for my important accounts</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> I do not intentionally
+                share my passwords</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> I avoid using the same
+                password everywhere</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> I have reviewed the
+                security settings of important accounts</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> I know how to identify
+                suspicious login messages</label
+              >
+            </li>
+            <li>
+              <label
+                ><input type="checkbox" data-store /> My important applications
+                are updated</label
+              >
+            </li>
+          </ul>
+          <div class="fill-row">
+            <label>One security habit I will improve:</label>
+            <input type="text" data-store placeholder="Type your answer" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 03 ORGANIZE -->
+    <section class="alt step-section" id="organize">
+      <div class="wrap">
+        <div class="step-tag">
+          <span class="n">03</span>
+          <h2>Organize</h2>
+        </div>
+        <p class="section-lead">
+          Important information gets hard to find once a phone fills up with
+          photos, downloads, screenshots, and documents. Good organization saves
+          time and reduces stress.
+        </p>
+
+        <h3 class="sub-title">Folders worth creating</h3>
+        <ul class="folder-list">
+          <li>📁 Documents</li>
+          <li>📁 School</li>
+          <li>📁 Work</li>
+          <li>📁 Family</li>
+          <li>📁 Government</li>
+          <li>📁 Receipts</li>
+          <li>📁 Important Photos</li>
+        </ul>
+        <p class="gap-para">
+          Use whatever names make sense to you. Then review old screenshots,
+          duplicate photos, unnecessary downloads, unused apps, large files, and
+          old documents — but check something isn't important before deleting
+          it.
+        </p>
+
+        <div class="activity-card" data-activity="organize-files">
+          <h3>Activity 3 — My File Organization</h3>
+          <p>
+            Identify three types of files that are important to you, and where
+            you currently keep them.
+          </p>
+          <div class="fill-grid">
+            <div class="fill-row">
+              <label>Important file #1 — type:</label
+              ><input
+                type="text"
+                data-store
+                placeholder="e.g. school records"
+              />
+            </div>
+            <div class="fill-row">
+              <label>Where I currently keep it:</label
+              ><input
+                type="text"
+                data-store
+                placeholder="e.g. Downloads folder"
+              />
+            </div>
+            <div class="fill-row">
+              <label>Important file #2 — type:</label
+              ><input type="text" data-store />
+            </div>
+            <div class="fill-row">
+              <label>Where I currently keep it:</label
+              ><input type="text" data-store />
+            </div>
+            <div class="fill-row">
+              <label>Important file #3 — type:</label
+              ><input type="text" data-store />
+            </div>
+            <div class="fill-row">
+              <label>Where I currently keep it:</label
+              ><input type="text" data-store />
+            </div>
+          </div>
+          <p class="sub-title" style="margin-top: 22px">
+            Today I will organize:
+          </p>
+          <ul class="check-list inline">
+            <li>
+              <label><input type="checkbox" data-store /> Photos</label>
+            </li>
+            <li>
+              <label><input type="checkbox" data-store /> Downloads</label>
+            </li>
+            <li>
+              <label><input type="checkbox" data-store /> Documents</label>
+            </li>
+            <li>
+              <label><input type="checkbox" data-store /> Screenshots</label>
+            </li>
+            <li>
+              <label><input type="checkbox" data-store /> Applications</label>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 04 VERIFY -->
+    <section class="step-section" id="verify">
+      <div class="wrap">
+        <div class="step-tag">
+          <span class="n">04</span>
+          <h2>Verify</h2>
+        </div>
+        <p class="section-lead">
+          Not everything you see online is true. Scammers and misinformation use
+          urgency, fake promotions, fake government notices, fake delivery
+          updates, and fake job offers to make you react before you check.
+        </p>
+
+        <div class="callout callout-accent">
+          <p>Stop &#8594; Check &#8594; Verify &#8594; Act</p>
+        </div>
+
+        <div class="timeline">
+          <div class="phase">
+            <div class="top"><h3>Stop</h3></div>
+            <p>
+              Don't immediately click, reply, transfer money, or share
+              information. Ask yourself: "Why am I receiving this?"
+            </p>
+          </div>
+          <div class="phase">
+            <div class="top"><h3>Check</h3></div>
+            <p>
+              Look carefully at the sender, phone number, email address, website
+              address, spelling, message details, and what's being requested.
+            </p>
+          </div>
+          <div class="phase">
+            <div class="top"><h3>Verify</h3></div>
+            <p>
+              Confirm using a trusted source — open the organization's official
+              app or website yourself instead of clicking the link in the
+              message.
+            </p>
+          </div>
+          <div class="phase">
+            <div class="top"><h3>Act</h3></div>
+            <p>
+              Only proceed once you're reasonably confident it's legitimate.
+              Still unsure? Don't proceed — ask a trusted person or contact the
+              organization through an official channel.
+            </p>
+          </div>
+        </div>
+
+        <div class="activity-card" data-activity="verify-scenario">
+          <h3>Activity 4 — Real or suspicious?</h3>
+          <p class="scenario">
+            "CONGRATULATIONS! You have won ₱50,000! Claim your prize now by
+            clicking this link and providing your account information."
+          </p>
+          <p>
+            <strong>Correct approach: stop and verify</strong> — never click the
+            link or send account information immediately.
+          </p>
+        </div>
+
+        <h3 class="sub-title">Warning signs</h3>
+        <ul class="check-list">
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Creates extreme
+              urgency</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Promises something too good
+              to be true</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Requests passwords or
+              OTPs</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Requests money
+              unexpectedly</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Contains suspicious
+              links</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Comes from an unknown
+              sender</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Threatens immediate
+              consequences</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Asks you to keep the
+              transaction secret</label
+            >
+          </li>
+        </ul>
+
+        <div class="activity-card" data-activity="verify-reflect">
+          <h3>Activity 5 — Check the message</h3>
+          <div class="fill-row">
+            <label
+              >Think of a suspicious message you've encountered. What made it
+              suspicious?</label
+            ><textarea data-store rows="2"></textarea>
+          </div>
+          <div class="fill-row">
+            <label>What did you do?</label
+            ><textarea data-store rows="2"></textarea>
+          </div>
+          <div class="fill-row">
+            <label>What could you do differently next time?</label
+            ><textarea data-store rows="2"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 05 PREPARE -->
+    <section class="alt step-section" id="prepare">
+      <div class="wrap">
+        <div class="step-tag">
+          <span class="n">05</span>
+          <h2>Prepare</h2>
+        </div>
+        <p class="section-lead">
+          Losing account access can happen — a forgotten password, a lost or
+          damaged phone, an inaccessible email, a compromised account, or
+          outdated recovery details. Preparing ahead makes recovery easier.
+        </p>
+
+        <p class="gap-para">
+          For your important accounts, check whether your recovery information
+          is current, accessible, correct, and controlled by you. Depending on
+          the service, that might mean a recovery email, recovery phone number,
+          trusted devices, authentication methods, or backup codes.
+        </p>
+
+        <div class="callout">
+          <p>
+            Never share recovery codes with other people. Store them securely,
+            following the service's own instructions.
+          </p>
+        </div>
+
+        <div class="activity-card" data-activity="prepare-recovery">
+          <h3>Activity 6 — My account recovery check</h3>
+          <div class="fill-row">
+            <label>Account/service:</label
+            ><input type="text" data-store placeholder="e.g. email, Facebook" />
+          </div>
+          <p class="sub-title" style="margin-top: 18px">
+            Do I know how to recover it?
+          </p>
+          <div class="radio-row">
+            <label
+              ><input type="radio" name="recover-know" data-store /> Yes</label
+            >
+            <label
+              ><input type="radio" name="recover-know" data-store /> No</label
+            >
+            <label
+              ><input type="radio" name="recover-know" data-store /> Not
+              sure</label
+            >
+          </div>
+          <p class="sub-title" style="margin-top: 18px">
+            Have I reviewed my recovery information?
+          </p>
+          <div class="radio-row">
+            <label
+              ><input type="radio" name="recover-review" data-store />
+              Yes</label
+            >
+            <label
+              ><input type="radio" name="recover-review" data-store /> No</label
+            >
+            <label
+              ><input type="radio" name="recover-review" data-store /> Not
+              sure</label
+            >
+          </div>
+          <div class="fill-row" style="margin-top: 18px">
+            <label>What should I improve?</label
+            ><textarea data-store rows="2"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STEP 06 CONTINUE / 30-DAY PLAN -->
+    <section class="step-section" id="plan">
+      <div class="wrap">
+        <div class="step-tag">
+          <span class="n">06</span>
+          <h2>Continue</h2>
+        </div>
+        <p class="section-lead">
+          Learning something once isn't enough. Choose a few simple habits you
+          can realistically keep up — checking account security, reviewing
+          suspicious messages, organizing files, updating apps, reviewing
+          recovery options, or sharing safe practices with family.
+        </p>
+
+        <div class="activity-card" data-activity="thirty-day">
+          <h3>My 30-day digital plan</h3>
+          <div class="habit-block" data-habit="1">
+            <div class="fill-row">
+              <label>Habit 1 — I will:</label
+              ><input
+                type="text"
+                data-store
+                placeholder="e.g. review my email's recovery info"
+              />
+            </div>
+            <p class="sub-title">How often?</p>
+            <div class="radio-row">
+              <label
+                ><input type="radio" name="habit1-freq" data-store />
+                Daily</label
+              >
+              <label
+                ><input type="radio" name="habit1-freq" data-store />
+                Weekly</label
+              >
+              <label
+                ><input type="radio" name="habit1-freq" data-store /> Every two
+                weeks</label
+              >
+              <label
+                ><input type="radio" name="habit1-freq" data-store />
+                Monthly</label
+              >
+            </div>
+          </div>
+          <div class="habit-block" data-habit="2">
+            <div class="fill-row">
+              <label>Habit 2 — I will:</label><input type="text" data-store />
+            </div>
+            <p class="sub-title">How often?</p>
+            <div class="radio-row">
+              <label
+                ><input type="radio" name="habit2-freq" data-store />
+                Daily</label
+              >
+              <label
+                ><input type="radio" name="habit2-freq" data-store />
+                Weekly</label
+              >
+              <label
+                ><input type="radio" name="habit2-freq" data-store /> Every two
+                weeks</label
+              >
+              <label
+                ><input type="radio" name="habit2-freq" data-store />
+                Monthly</label
+              >
+            </div>
+          </div>
+          <div class="habit-block" data-habit="3">
+            <div class="fill-row">
+              <label>Habit 3 — I will:</label><input type="text" data-store />
+            </div>
+            <p class="sub-title">How often?</p>
+            <div class="radio-row">
+              <label
+                ><input type="radio" name="habit3-freq" data-store />
+                Daily</label
+              >
+              <label
+                ><input type="radio" name="habit3-freq" data-store />
+                Weekly</label
+              >
+              <label
+                ><input type="radio" name="habit3-freq" data-store /> Every two
+                weeks</label
+              >
+              <label
+                ><input type="radio" name="habit3-freq" data-store />
+                Monthly</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <h3 class="sub-title">30-day tracker</h3>
+        <table class="hb-table tracker">
+          <tr>
+            <th>Week</th>
+            <th>What I practiced</th>
+            <th>Done</th>
+          </tr>
+          <tr>
+            <td>Week 1</td>
+            <td><input type="text" data-store placeholder="—" /></td>
+            <td><input type="checkbox" data-store /></td>
+          </tr>
+          <tr>
+            <td>Week 2</td>
+            <td><input type="text" data-store placeholder="—" /></td>
+            <td><input type="checkbox" data-store /></td>
+          </tr>
+          <tr>
+            <td>Week 3</td>
+            <td><input type="text" data-store placeholder="—" /></td>
+            <td><input type="checkbox" data-store /></td>
+          </tr>
+          <tr>
+            <td>Week 4</td>
+            <td><input type="text" data-store placeholder="—" /></td>
+            <td><input type="checkbox" data-store /></td>
+          </tr>
+        </table>
+
+        <div class="activity-card" data-activity="thirty-day-reflect">
+          <div class="fill-row">
+            <label>After 30 days — which habit was easiest to maintain?</label
+            ><input type="text" data-store />
+          </div>
+          <div class="fill-row">
+            <label>Which habit was difficult?</label
+            ><input type="text" data-store />
+          </div>
+          <div class="fill-row">
+            <label>What will you continue doing?</label
+            ><input type="text" data-store />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EMERGENCY CHECKLIST -->
+    <section class="alt" id="emergency">
+      <div class="wrap">
+        <h2 class="section-title">Digital emergency checklist.</h2>
+        <p class="section-lead">
+          If you think your account or device has been compromised, work through
+          this in order.
+        </p>
+        <div class="timeline">
+          <div class="phase">
+            <div class="top"><h3>Stop</h3></div>
+            <p>Don't continue interacting with suspicious messages.</p>
+          </div>
+          <div class="phase">
+            <div class="top"><h3>Secure</h3></div>
+            <p>
+              Change affected passwords using a trusted device or official
+              service.
+            </p>
+          </div>
+          <div class="phase">
+            <div class="top"><h3>Check</h3></div>
+            <p>Review recent account activity and security notifications.</p>
+          </div>
+          <div class="phase">
+            <div class="top"><h3>Recover</h3></div>
+            <p>Use the service's official account-recovery process.</p>
+          </div>
+          <div class="phase">
+            <div class="top"><h3>Report</h3></div>
+            <p>
+              If appropriate, report suspicious activity to the relevant
+              platform, organization, or authorities.
+            </p>
+          </div>
+          <div class="phase">
+            <div class="top"><h3>Ask for safe help</h3></div>
+            <p>Ask someone you trust for assistance.</p>
+          </div>
+        </div>
+        <div class="callout">
+          <p>
+            Never give your password, OTP, PIN, or recovery code to someone who
+            claims they need it to "help" you.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- QUICK REFERENCE -->
+    <section id="reference">
+      <div class="wrap">
+        <h2 class="section-title">Quick reference guide.</h2>
+
+        <h3 class="sub-title">When you receive a suspicious message</h3>
+        <p class="flow">
+          Stop &#8594; don't click immediately &#8594; check who sent it &#8594;
+          verify with an official source &#8594; act only when confident
+        </p>
+
+        <h3 class="sub-title">When you forget your password</h3>
+        <ol class="numbered-list">
+          <li>Go to the official application or website.</li>
+          <li>Select the official password-recovery option.</li>
+          <li>Follow the service's instructions.</li>
+          <li>Don't give your recovery code to another person.</li>
+          <li>Create a new, strong password.</li>
+          <li>Review your account security afterward.</li>
+        </ol>
+
+        <h3 class="sub-title">When your phone is lost</h3>
+        <ol class="numbered-list">
+          <li>Stay calm.</li>
+          <li>Use the device-finding service available on your device.</li>
+          <li>Secure important accounts.</li>
+          <li>Contact your mobile provider when necessary.</li>
+          <li>Change important passwords if needed.</li>
+          <li>Ask for help from a trusted person or appropriate service.</li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SELF-ASSESSMENT -->
+    <section class="alt" id="assessment">
+      <div class="wrap">
+        <h2 class="section-title">Participant self-assessment.</h2>
+        <p class="section-lead">
+          At the end of your DigiLaya session, rate yourself honestly. 1 means
+          you can't do this yet; 5 means you can confidently do it and explain
+          it to someone else.
+        </p>
+        <table class="hb-table assessment">
+          <tr>
+            <th>Skill</th>
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+          </tr>
+          <script>
+            document.write("");
+          </script>
+          <tr>
+            <td>Secure my smartphone</td>
+            <td colspan="5" class="rate-cell">
+              <div class="rate-row" data-rate></div>
+            </td>
+          </tr>
+          <tr>
+            <td>Protect my account information</td>
+            <td colspan="5" class="rate-cell">
+              <div class="rate-row" data-rate></div>
+            </td>
+          </tr>
+          <tr>
+            <td>Organize important files</td>
+            <td colspan="5" class="rate-cell">
+              <div class="rate-row" data-rate></div>
+            </td>
+          </tr>
+          <tr>
+            <td>Identify suspicious messages</td>
+            <td colspan="5" class="rate-cell">
+              <div class="rate-row" data-rate></div>
+            </td>
+          </tr>
+          <tr>
+            <td>Verify online information</td>
+            <td colspan="5" class="rate-cell">
+              <div class="rate-row" data-rate></div>
+            </td>
+          </tr>
+          <tr>
+            <td>Review account recovery options</td>
+            <td colspan="5" class="rate-cell">
+              <div class="rate-row" data-rate></div>
+            </td>
+          </tr>
+          <tr>
+            <td>Maintain safe digital habits</td>
+            <td colspan="5" class="rate-cell">
+              <div class="rate-row" data-rate></div>
+            </td>
+          </tr>
+        </table>
+
+        <div class="activity-card">
+          <div class="fill-row">
+            <label>My biggest takeaway today:</label
+            ><textarea data-store rows="2"></textarea>
+          </div>
+          <div class="fill-row">
+            <label>Starting today, I will do this differently:</label
+            ><textarea data-store rows="2"></textarea>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMUNITY GUIDE -->
+    <section id="guide">
+      <div class="wrap">
+        <h2 class="section-title">Becoming a DigiLaya Community Guide.</h2>
+        <p class="section-lead">
+          A Community Guide is a trained community volunteer who helps share
+          practical digital self-reliance practices with other residents. They
+          don't need to know everything about technology — they need to be
+          patient, respectful, responsible, willing to learn, careful with
+          participants' privacy, and able to explain simple digital tasks
+          clearly.
+        </p>
+
+        <div class="beneficiary-grid">
+          <div class="b-card">
+            <div class="num">Before</div>
+            <p>
+              Prepare materials, confirm participants, review activity
+              instructions, check equipment, and coordinate with the
+              implementation team.
+            </p>
+          </div>
+          <div class="b-card">
+            <div class="num">During</div>
+            <p>
+              Guide participants through activities, answer basic questions,
+              help with navigation, observe understanding, and protect
+              participant privacy.
+            </p>
+          </div>
+          <div class="b-card">
+            <div class="num">After</div>
+            <p>
+              Record concerns, encourage participants to follow their 30-day
+              plans, help organize replication sessions, and give feedback to
+              the project team.
+            </p>
+          </div>
+        </div>
+
+        <h3 class="sub-title">A Community Guide must never</h3>
+        <ul class="never-grid">
+          <li>Ask for a participant's password</li>
+          <li>Ask for an OTP</li>
+          <li>Ask for a recovery code</li>
+          <li>Log into a participant's account for personal purposes</li>
+          <li>Copy private files without permission</li>
+          <li>Access private messages without permission</li>
+          <li>Request financial information unnecessarily</li>
+          <li>Use a participant's account for them without a valid reason</li>
+        </ul>
+        <div class="callout">
+          <p>
+            Guide the person. Don't take control of the person's digital life.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- COMMITMENT -->
+    <section class="alt" id="commitment">
+      <div class="wrap">
+        <h2 class="section-title">Our community commitment.</h2>
+        <p class="section-lead">
+          DigiLaya matters most after the project team leaves. As a participant,
+          I commit to:
+        </p>
+        <ul class="check-list">
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Protecting my account
+              information</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Thinking before clicking
+              suspicious links</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Verifying information before
+              sharing it</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Keeping important files
+              organized</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Preparing recovery options
+              for important accounts</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Practicing the digital
+              habits I learned</label
+            >
+          </li>
+          <li>
+            <label
+              ><input type="checkbox" data-store /> Sharing safe digital
+              practices with my household when appropriate</label
+            >
+          </li>
+        </ul>
+
+        <div class="signature-card">
+          <p>
+            I will use technology not only more often, but also more safely,
+            responsibly, and independently.
+          </p>
+          <div class="signature-grid">
+            <div class="fill-row">
+              <label>Name</label><input type="text" data-store />
+            </div>
+            <div class="fill-row">
+              <label>Date</label
+              ><input type="text" data-store placeholder="DD/MM/YYYY" />
+            </div>
+          </div>
+        </div>
+
+        <div class="reminder-grid">
+          <div class="reminder">
+            <span class="n">01</span><span>Check</span>
+          </div>
+          <div class="reminder">
+            <span class="n">02</span><span>Secure</span>
+          </div>
+          <div class="reminder">
+            <span class="n">03</span><span>Organize</span>
+          </div>
+          <div class="reminder">
+            <span class="n">04</span><span>Verify</span>
+          </div>
+          <div class="reminder">
+            <span class="n">05</span><span>Prepare</span>
+          </div>
+          <div class="reminder">
+            <span class="n">06</span><span>Continue</span>
+          </div>
+        </div>
+        <p class="tagline">
+          Your device. Your accounts. Your information. Your responsibility.
+        </p>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="site">
+      <div class="wrap">
+        <div class="foot-bottom">
+          <span
+            >DigiLaya — Association of Computer Science Students, University of
+            Cabuyao</span
+          >
+          <span>Sibol ng Laguna 2026 · Kaunlarang Teknolohikal</span>
+        </div>
+      </div>
+    </footer>
+
+    <button id="top-btn" aria-label="Back to top" type="button">&#8593;</button>
+
+    <script>
+      /* HEADER SCROLL */
+      var header = document.getElementById("site-header");
+      window.addEventListener("scroll", function () {
+        header.classList.toggle("scrolled", window.scrollY > 10);
+        document
+          .getElementById("top-btn")
+          .classList.toggle("show", window.scrollY > 500);
+      });
+
+      /* MOBILE MENU */
+      var menuBtn = document.getElementById("menuBtn");
+      var nav = document.getElementById("siteNav");
+      menuBtn.addEventListener("click", function () {
+        var open = nav.classList.toggle("open");
+        menuBtn.setAttribute("aria-expanded", open);
+      });
+      nav.querySelectorAll("a").forEach(function (a) {
+        a.addEventListener("click", function () {
+          nav.classList.remove("open");
+          menuBtn.setAttribute("aria-expanded", "false");
+        });
+      });
+
+      /* SECTION REVEAL */
+      var revealObserver = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) {
+              entry.target.classList.add("in-view");
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        },
+        { threshold: 0.1 },
+      );
+      document.querySelectorAll("section:not(.hero)").forEach(function (s) {
+        revealObserver.observe(s);
+      });
+
+      /* BACK TO TOP */
+      document.getElementById("top-btn").addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+
+      /* PRINT */
+      document
+        .getElementById("printBtn")
+        .addEventListener("click", function () {
+          window.print();
+        });
+
+      /* BUILD 1-5 RATING DOTS */
+      document.querySelectorAll("[data-rate]").forEach(function (row, idx) {
+        for (var i = 1; i <= 5; i++) {
+          var lbl = document.createElement("label");
+          lbl.className = "rate-dot";
+          var input = document.createElement("input");
+          input.type = "radio";
+          input.name = "rate-" + idx;
+          input.value = i;
+          input.setAttribute("data-store", "");
+          var span = document.createElement("span");
+          span.textContent = i;
+          lbl.appendChild(input);
+          lbl.appendChild(span);
+          row.appendChild(lbl);
+        }
+      });
+
+      /* AUTOSAVE TO LOCALSTORAGE, KEYED BY POSITION IN DOCUMENT */
+      (function () {
+        var STORE_KEY = "digilaya-handbook-v1";
+        var saved = {};
+        try {
+          saved = JSON.parse(localStorage.getItem(STORE_KEY) || "{}");
+        } catch (e) {
+          saved = {};
+        }
+        var fields = Array.prototype.slice.call(
+          document.querySelectorAll("[data-store]"),
+        );
+        fields.forEach(function (el, i) {
+          var key = el.name ? el.name + "-" + i : "field-" + i;
+          el.dataset.storeKey = key;
+          if (saved[key] !== undefined) {
+            if (el.type === "checkbox" || el.type === "radio") {
+              el.checked = !!saved[key];
+            } else {
+              el.value = saved[key];
+            }
+          }
+          var evt =
+            el.tagName === "SELECT" ||
+            el.type === "checkbox" ||
+            el.type === "radio"
+              ? "change"
+              : "input";
+          el.addEventListener(evt, function () {
+            var val =
+              el.type === "checkbox" || el.type === "radio"
+                ? el.checked
+                : el.value;
+            saved[el.dataset.storeKey] = val;
+            try {
+              localStorage.setItem(STORE_KEY, JSON.stringify(saved));
+            } catch (e) {}
+          });
+        });
+      })();
+    </script>
+  </body>
+</html>
