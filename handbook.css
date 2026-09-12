@@ -1,3 +1,66 @@
+#siteNav .nav-dropdown {
+  position: relative;
+}
+#siteNav .nav-dropdown-btn {
+  background: none;
+  border: none;
+  font-family: inherit;
+  font-size: 14.5px;
+  color: inherit;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 0;
+}
+#siteNav .nav-dropdown-btn .caret {
+  font-size: 10px;
+  transition: transform 0.18s ease;
+}
+#siteNav .nav-dropdown.open .nav-dropdown-btn .caret {
+  transform: rotate(180deg);
+}
+#siteNav .nav-dropdown-menu {
+  display: none;
+  position: absolute;
+  top: calc(100% + 14px);
+  left: 0;
+  min-width: 220px;
+  background: var(--white);
+  border: 1px solid var(--green-line);
+  border-radius: 6px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  padding: 6px 0;
+  z-index: 40;
+}
+#siteNav .nav-dropdown.open .nav-dropdown-menu {
+  display: block;
+}
+#siteNav .nav-dropdown-menu a {
+  display: block;
+  padding: 9px 18px;
+  font-size: 13.5px;
+  color: var(--ink-soft);
+  text-decoration: none;
+  white-space: nowrap;
+}
+#siteNav .nav-dropdown-menu a:hover {
+  background: var(--green-pale);
+  color: var(--green-deep);
+}
+
+@media (max-width: 640px) {
+  #siteNav .nav-dropdown-menu {
+    display: none;
+    position: static;
+    box-shadow: none;
+    border: none;
+    padding: 0 0 0 10px;
+  }
+  #siteNav .nav-dropdown.open .nav-dropdown-menu {
+    display: block;
+  }
+}
 .handbook-hero {
   opacity: 1;
   transform: none;
