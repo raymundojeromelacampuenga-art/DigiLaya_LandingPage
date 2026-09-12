@@ -1,7 +1,11 @@
-/* Handbook — extends the tokens already defined in index.css */
-
 .handbook-hero {
+  opacity: 1;
+  transform: none;
   padding-bottom: 34px;
+}
+.handbook-hero {
+  opacity: 1;
+  transform: none;
 }
 .handbook-hero .cta {
   margin-bottom: 18px;
@@ -38,7 +42,9 @@
   padding: 7px 12px;
   border-radius: 20px;
   white-space: nowrap;
-  transition: background 0.18s ease, color 0.18s ease;
+  transition:
+    background 0.18s ease,
+    color 0.18s ease;
 }
 .hb-toc a:hover {
   color: var(--green-deep);
