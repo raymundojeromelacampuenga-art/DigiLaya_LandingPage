@@ -13,6 +13,26 @@
 * {
   box-sizing: border-box;
 }
+.logo-box {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  border: 1px dashed rgba(0, 0, 0, 0.35);
+  border-radius: 8px;
+  font-family: "Inter", sans-serif;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  color: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.03);
+}
+.logo-img {
+  height: 36px;
+  width: auto;
+  display: block;
+}
 html {
   scroll-behavior: smooth;
 }
